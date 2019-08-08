@@ -9,6 +9,7 @@ import ServiceCreate from '@/components/ServiceCreate'
 import ProductList from '@/components/ProductList'
 import ProductCreate from '@/components/ProductCreate'
 
+
 Vue.use(Router)
 
 export default new Router({

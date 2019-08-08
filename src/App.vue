@@ -2,7 +2,7 @@
 
   <v-app>
     <v-toolbar class="blue">
-      <v-toolbar-title>Maverick Food Service</v-toolbar-title>
+      <v-toolbar-title>Maverick Food Services</v-toolbar-title>
       <v-toolbar-items>
         <v-btn flat dark @click="goHome">Home</v-btn>
         <v-btn flat dark @click="viewCustomers">Customers</v-btn>
@@ -24,7 +24,7 @@
 </template>
 
 <script>
-  import router from './router';
+   import router from './router';
   import {APIService} from './http/APIService';
   const apiService = new APIService();
 
@@ -76,14 +76,3 @@
     }
   };
 </script>
-
-<style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
